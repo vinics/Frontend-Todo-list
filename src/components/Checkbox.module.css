@@ -1,0 +1,24 @@
+.checkbox {
+  border-radius: 100%;
+  border: 2px solid var(--blue);
+  cursor: pointer;
+  height: 1.09rem;
+  width: 1.09rem;
+  display: grid;
+  place-items: center;
+  margin-top: 4px
+}
+
+.checkbox:hover {
+  border-color: var(--blue-dark);
+  background: var(--blue-dark-hover);
+}
+
+.checked {
+  border: none;
+  background-color: var(--purple-dark);
+}
+
+.checked:hover {
+  background: var(--purple);
+}

@@ -1,0 +1,11 @@
+.wrapper {
+
+}
+
+.content {
+  /* border: 1px dashed orange; */
+  margin: 0 auto;
+  margin-top: calc(0px - 1rem - 2rem);
+  max-width: calc(736px + 2 * 1rem);
+  padding: 1rem;
+}
